@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <meta charset=utf-8 />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatBots</title>
+    <link rel="stylesheet" href="./src/css/main.css">
+</head>
+
+<body>
+    <div class="main-container">    
+        <h1>WhatBots</h1>
+        <!-- <button id="changeColor" class="btn btn__color">Set me as background color!</button> -->
+        <div id="userContainer" class="userContainer">
+            <div class="profile">
+                <img  width="50" height="50" id="profileimage" />
+                <div class="username">
+                  <div id="username"></div>
+                  <div class="logout" id="sign_out">Log Out</div>
+                </div>
+            </div>
+            <b>Your stats
+            <div class="credit-container">
+                <b>Credit Left:</b>
+                <div id="credit"></div>
+            </div>
+            <div class="queries-container">
+                <b>Total Queries:</b>
+                <div id="queried"></div>
+            </div>
+            <div class="queries-container">
+                <b>Google Queries:</b>
+                <div id="googlequeried"></div>
+            </div>
+            <div class="queries-container">
+                <b>Github Explains:</b>
+                <div id="githubexplain"></div>
+            </div>
+            <div class="queries-container">
+                <b>Chat Queries:</b>
+                <div id="chatqueried"></div>
+            </div>
+        </div>
+    </div>
+    <div class="google-search">
+        
+            <!-- <b>Auto Search Enabled:</b> -->
+        <div class="toggle-container">
+            <input type="checkbox"  id="toggleSwitch" />
+            <p class="hint">Show you answers when you do Google search</p>
+        </div>
+       
+    </div>
+    <div class="google-search">
+       
+        <!-- <b>Auto Github Explain:</b> -->
+        <div class="toggle-container">
+            <input type="checkbox"  id="gitToggleSwitch" />
+            <p class="hint">Expalin code on Github</p>
+        </div>
+        
+    </div>
+    
+    <div class="credit-form">
+        <p>It's been fun offering WhatBots for free but to cover the costs of inference we need to add a usage based credit. This way we can keep building it.</p>
+        <a  id="credit-form-link" class="credit-form-link" href="https://forms.gle/NpzY4eULveFMm3CE8">Get Credits</a>
+    </div>
+   
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+  /* Add additional font variants and file paths if necessary */
+}
+/* The Modal (background) */
+.ddwmodal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   
+}
+.close-button{
+  cursor: pointer;
+}
+
+.loader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+  .loader img {
+    width: 300px;
+    height: 300px;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  
+  /* Modal Content/Box */
+  .ddwmodal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 35%; /* Could be more or less, depending on screen size */
+    z-index: 2;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+ .copy-message{
+  
+ } 
+.question{
+  color: #69686F;
+  ;
+}
+  
+.output{
+
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;
+  
+
+}
+
+/* Modal Header */
+.ddwmodal-header {
+    padding: 2px 16px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: linear-gradient(180deg, #5E72D6 0%, #9088E5 100%);
+    border-radius: 5px 5px 0px 0px; 
+  }
+  
+  /* Modal Body */
+  .ddwmodal-body {padding: 2px 16px; padding-top: 10px;
+    padding-bottom: 10px;}
+  
+  /* Modal Footer */
+  .ddwmodal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(131, 131, 226, 0.336) 0%, rgba(217, 217, 217, 0) 100%);
+    height: 100px;
+  }
+  
+  /* Modal Content */
+  .ddwmodal-content {
+    font-size: 10px !important;
+    color: black !important;
+    position: relative;
+    background-color: #fefefe;
+    padding: 0;
+    border: 1px solid #888;
+    width: 35%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  .ptext{
+    width: 100%;
+    margin: auto;
+    min-height: 75px;
+    border: 1px solid grey;
+    outline: none;
+    resize: none;
+  }
+
+  /* Add Animation */
+  @keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }

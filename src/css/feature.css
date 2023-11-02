@@ -1,0 +1,27 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
+
+body {
+  background: linear-gradient(180deg, #5E72D6 0%, #9088E5 100%), #D9D9D9;
+  font-family: "Lato", sans-serif;
+  width: 300px;
+  height: 300px;
+}
+
+h5 {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+}
+
+.feature{
+  color: white;
+}
+
+#close-button{
+  color: #fff;
+}
+

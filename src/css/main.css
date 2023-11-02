@@ -1,0 +1,114 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
+body {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  /* height: 230px; */
+  font-family: "Lato", sans-serif;
+}
+
+.main-container{
+  background: linear-gradient(180deg, #5E72D6 0%, #9088E5 100%), #D9D9D9;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.main-info{
+
+  color: white;
+}
+
+.instruction-container{
+  margin: 10px;
+  padding: 10px;
+}
+
+.google-search{
+  margin: 10px;
+  padding: 10px;
+}
+.toggle-container {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-container label {
+  font-size: 10px;
+}
+.toggle-container .hint {
+  margin-left: 10px;
+  font-size: 10px;
+  color: #888;
+}
+
+.userContainer{
+  background: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.username{
+  margin-left: 2px;
+}
+.profileimage{
+  width: 5px;
+  height: 5px;
+}
+
+.logout{
+  margin-top: 2px;
+  border: 1px solid #69686F;
+  width: 50px;
+  padding: 3px;
+  font-size: 10px;
+  text-align: center;
+  color: #69686F;
+  cursor: pointer;
+}
+
+.credit-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.queries-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.profile{
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+}
+
+h5{
+  color: #69686F;
+}
+
+h2{
+  color: #5E72D6;
+}
+
+.credit-form{
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.credit-form-link {
+  text-decoration: none;
+  background-color: #5E72D6;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
