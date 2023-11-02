@@ -30,5 +30,9 @@ To see WhatBots in action, check this [chrome extension](https://chromewebstore.
 
 - **Privacy-Focused:** Rest assured, WhatBots cares about your privacy. It doesn't collect any personal information or browsing data, ensuring a secure and reliable experience.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
